@@ -18,7 +18,7 @@ public class Rechner {
         String abfrage = System.console().readLine();
         
         int ergebnis;
-        
+        while (true) {
         switch (abfrage){
         case "plus": 
         	ergebnis = zahl1 + zahl2;
@@ -41,5 +41,5 @@ public class Rechner {
                      
         }
      }
-
+	}
 }

@@ -1,6 +1,6 @@
 package de.telekom.sea7;
 
-public class ModelKonto {
+public class Zahlung {
 	
 	//private Konto einKonto = new Konto();
 	

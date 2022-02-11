@@ -8,8 +8,8 @@ public class ApplicationKonto {
 	public void run(String[] args) {
 
 		ViewKonto viewkonto = new ViewKonto();
-		ModelKonto modelkonto = new ModelKonto();
-		ModelKonto modelkonto1 = new ModelKonto();
+		Zahlung modelkonto = new Zahlung();
+		Zahlung modelkonto1 = new Zahlung();
 		modelkonto.setEmpfaenger("Harry");
 		modelkonto.setIban("DE123456789");
 		modelkonto1.setEmpfaenger("Eva");
